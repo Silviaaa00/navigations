@@ -1,0 +1,140 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #EDE7F6;
+}
+/* Orizontal nav bar beggining*/
+.orizontal {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 0px;
+}
+.first-nav li {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+}
+.blue {
+    border: #2196F3 solid 2px;
+    border-radius: 3px;
+    color: #2196F3;
+}
+.input {
+    width: 400px;
+    background-color: rgb(234, 231, 246);
+    border-radius: 5px;
+    border-width: thin;
+    border-color: rgb(234, 231, 246);
+    height: 40px;
+    border-style: none;
+    position: left;
+    margin-left: 300px;
+    float: left;
+    margin-bottom: 14px;
+}
+.words {
+    float: right;
+    width: 80px;
+    text-align: center;
+    padding: 3px;
+    color: #a08c8c;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+/* Vertical nar bar beggining*/
+.vertical {
+    height: 100%;
+    position: fixed;
+    background-color: #212121;
+    display: block;
+    width: 120px;
+    overflow: hidden;
+}
+.home-button  {
+    background-color: #FF9100;
+    background-size: cover;
+}
+.second {
+    list-style-type: none;
+    color: rgb(234, 231, 246);
+    padding-left: 0;
+    text-align: center;
+}
+.second li a{
+text-align: center;
+color: #fff;
+display: block;
+padding: 10px;
+font-size: 25px;
+
+}
+.second li {
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}
+/* the big div*/
+.main-content {
+    float: left;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.main-content .image {
+
+    float: left;
+}
+.main-content .name {
+    float: right;
+ }
+ .image {
+      margin-left: 100px;
+      margin-top: 50px;
+ }
+ .html-pic {
+     margin-left: 100px;
+ }
+ 
+ .name {
+     margin-right: 560px;
+     margin-top: 50px;
+
+ }
+ .html-come {
+     text-align: left;
+     margin-left: 100px;
+     margin-top: 150px;
+     color: #a08c8c;
+ }
+ .title-para {
+     margin-left: 100px;
+     color: #a08c8c;
+ }
+ .silvia {
+     font-size: 15px;
+     color: #a08c8c;
+
+ }
+ .months {
+     font-size: 10px;
+     color: #a08c8c;
+ }
+ /* Small side part*/
+.small-content {
+    float: right;
+    margin-right: 80px;
+    background-color: #fff;
+    margin-top: 260px;
+    color: #a08c8c;
+}
+.hint {
+    font-size: 30px;
+    color: #a08c8c;
+
+}
+
